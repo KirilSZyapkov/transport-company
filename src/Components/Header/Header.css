@@ -1,9 +1,22 @@
-.header{
-    border: 1px solid red;
+@media screen and (max-width: 800px) {
+    .header_logo{
+        display: none;
+    }
 }
 
+@media screen and (max-width: 600px) {
+    .header_navigation_list, .header_navigation{
+        flex-direction: column;
+    }
+
+    .dropdown_uslugi_content, .dropdown_company_content, .dropdown_cariera_content{
+        left: -65%;
+        min-width: 260px;
+    }
+}
 .header_logo{
     width: 200px;
+    
 }
 
 .header_navigation{
@@ -30,7 +43,7 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     margin-top: 12px;
