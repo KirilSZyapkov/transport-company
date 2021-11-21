@@ -99,9 +99,9 @@ function Header() {
                         </div>
                     </Link><Link to="/">
                         <li className='header_navigation_item'>
-                            НОВИНИ
+                            ЗА НАС
                         </li>
-                    </Link><Link to="/">
+                    </Link><Link to="/contacts">
                         <li className='header_navigation_item'>
                             КОНТАКТИ
                         </li>
