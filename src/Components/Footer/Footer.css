@@ -1,3 +1,36 @@
-.footer{
-    background-color: green;
+.contacts_details_icon{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.contacts_details_mails{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer_contacts{
+    background-color: #2D2D2D;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer_rights{
+    background-color: #171717;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.footer_rights_paragraph, .paragraphs, .social{
+    margin: 0;
+}
+
+.paragraphs, .social{
+    padding: 5px 0px;
 }

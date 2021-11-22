@@ -1,4 +1,8 @@
+import emailjs from 'emailjs-com';
+
 import './Contacts.css';
+
+emailjs.init('user_cHmfISm7sED5Rr2y3J6Uv');
 
 function Contacts() {
 
@@ -10,7 +14,7 @@ function Contacts() {
 
     function initMap() {
         // The location of Uluru
-        
+
         const uluru = { lat: 44.436290, lng: 26.103575 };
         // The map, centered at Uluru
         const map = new window.google.maps.Map(document.getElementById("map"), {
@@ -23,35 +27,51 @@ function Contacts() {
             map: map
         })
 
-        return map;
+        return {
+            map,
+            marker
+        };
     }
 
-
+    async function sendMail(e) {
+        e.preventDefault();
+        try {
+            const result = await emailjs.sendForm('service_qv0stx3', 'template_lpz2ikm', e.target, 'user_cHmfISm7sED5Rr2y3J6Uv');
+            
+            alert("Message Sent, We will get back to you shortly", result.text);
+        } catch (err) {
+            console.log(err);
+            alert(`An error occurred, Please try again ${err.text}`);
+        }
+    }
+    
+    
     return (
         <section className="container">
             <h1>Искате ли да се свържете с нас?</h1>
-            <form>
-                <label for="fname">Your Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+            <form onSubmit={sendMail}>
+                <label htmlFor="name">Име</label>
+                <input type="text" id="name" name="name" placeholder="Вашето Име..." />
 
-                <label for="lname">Your Email</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+                <label htmlFor="email">Имейл</label>
+                <input type="text" id="email" name="email" placeholder="Вашия Имейл..." />
 
-                <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                <label htmlFor="subject">Съобщение</label>
+                <textarea id="subject" name="subject" placeholder="Вашето съобщение..."></textarea>
 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Изпрати" />
             </form>
 
             <div className="map_container">
                 <div>
-                    <h2>Find Us</h2>
-                    <p>Swing by for a cup of coffee, or leave us a message: </p>
+                    <h2>Намерете ни</h2>
+
                 </div>
 
                 <div className="map" id="map"></div>
 
             </div>
+
         </section>
     );
 }

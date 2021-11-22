@@ -5,8 +5,8 @@ import HomePage from './Components/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
 import Contacts from './Components/Contacts/Contacts';
 
-
 function App() {
+  
   return (
     <div className="App">
       <Header />

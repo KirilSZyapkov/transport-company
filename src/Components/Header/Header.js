@@ -9,18 +9,13 @@ function Header() {
     const [state, setState] = useState(0);
 
     const banner = [
-        {
-            first: '/static/transport-banner.jpg'
-        },
-        {
-            second: '/static/transport-banner-two.jpg'
-        },
-        {
-            third: '/static/transport-banner-three.jpg'
-        },
-    ]
 
-    let currentBanner = '';
+        '/static/transport-banner.jpg',
+
+        '/static/transport-banner-two.jpg',
+
+        '/static/transport-banner-three.jpg',
+    ]
 
     function decrease(e) {
         setState(oldState => {
@@ -40,14 +35,6 @@ function Header() {
             }
             return oldState;
         });
-    }
-
-    if (state === 0) {
-        currentBanner = banner[state].first;
-    } else if (state === 1) {
-        currentBanner = banner[state].second;
-    } else if (state === 2) {
-        currentBanner = banner[state].third;
     }
 
     return (
@@ -111,7 +98,7 @@ function Header() {
             <article className='header_baner'>
                 <i className="fas fa-chevron-left arrow" onClick={decrease}></i>
                 <i className="fas fa-chevron-right arrow" onClick={increase}></i>
-                <img className='banner' src={currentBanner} alt="banner" />
+                <img className='banner' src={banner[state]} alt="banner" />
             </article>
         </section>
     );
