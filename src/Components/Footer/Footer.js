@@ -5,10 +5,10 @@ function Footer() {
         <section className="footer">
             <section className="footer_contacts">
                 <article className="footer_contacts_social">
-                    <p className="social"><i className="fab fa-facebook"></i><a className="contacts_details_social" href="facebook.com">Facebook</a></p>
-                    <p className="social"><i className="fab fa-instagram"></i><a className="contacts_details_social" href="instagram.com">Instagram</a></p>
-                    <p className="social"><i className="fab fa-twitter"></i><a className="contacts_details_social" href="twitter.com">Twitter</a></p>
-                    <p className="social"><i className="fab fa-discord"></i><a className="contacts_details_social" href="discord.com">Discord</a></p>
+                    <p className="social"><i className="fab contacts_details_icon fa-facebook"></i><a className="contacts_details_social" href="https://www.facebook.com">Facebook</a></p>
+                    <p className="social"><i className="fab contacts_details_icon fa-instagram"></i><a className="contacts_details_social" href="https://www.instagram.com">Instagram</a></p>
+                    <p className="social"><i className="fab contacts_details_icon fa-twitter"></i><a className="contacts_details_social" href="https://www.twitter.com">Twitter</a></p>
+                    <p className="social"><i className="fab contacts_details_icon fa-discord"></i><a className="contacts_details_social" href="https://www.discord.com">Discord</a></p>
                     
                 </article>
                 <article className="footer_contacts_details">

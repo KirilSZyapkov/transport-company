@@ -3,7 +3,7 @@
     font-size: 20px;
 }
 
-.contacts_details_mails{
+.contacts_details_mails, .contacts_details_social{
     text-decoration: none;
     color: white;
     font-size: 20px;
