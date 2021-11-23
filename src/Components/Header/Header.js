@@ -84,7 +84,7 @@ function Header() {
                                 </ul>
                             </div>
                         </div>
-                    </Link><Link to="/">
+                    </Link><Link to="/about-us">
                         <li className='header_navigation_item'>
                             ЗА НАС
                         </li>

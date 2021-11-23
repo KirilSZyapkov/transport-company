@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import HomePage from './Components/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
 import Contacts from './Components/Contacts/Contacts';
+import AboutUs from './Components/AboutUs/AboutUs';
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/contacts" component={Contacts} />
+        <Route exact path="/about-us" component={AboutUs} />
 
       </Switch>
 
