@@ -48,7 +48,7 @@ function Header() {
                                 УСЛУГИ <i className="fas fa-angle-down"></i>
                             </li>
                             <div className="dropdown_uslugi_content">
-                                <ul>
+                                <ul className="dropdown_uslugi_content_ul" >
                                     <li><Link to="/"><span>СУХОПЪТЕН ТРАНСПОРТ</span></Link></li>
                                     <li><Link to="/"><span>МОРСКИ ТРАНСПОРТ</span></Link></li>
                                     <li><Link to="/"><span>ВЪЗДУШЕН ТРАНСПОРТ</span></Link></li>
@@ -62,7 +62,7 @@ function Header() {
                                 КОМПАНИЯ <i className="fas fa-angle-down"></i>
                             </li>
                             <div className="dropdown_company_content">
-                                <ul>
+                                <ul className="dropdown_uslugi_content_ul" >
                                     <li><Link to="/"><span>БИЗНЕС ФИЛОСОФИЯ</span></Link></li>
                                     <li><Link to="/"><span>УСТОЙЧИВОСТ</span></Link></li>
                                 </ul>
@@ -78,7 +78,7 @@ function Header() {
                                 КАРИЕРА <i className="fas fa-angle-down"></i>
                             </li>
                             <div className="dropdown_cariera_content">
-                                <ul>
+                                <ul className="dropdown_uslugi_content_ul" >
                                     <li><Link to="#"><span>КАРИЕРА В ТРАНСПОРТА</span></Link></li>
                                     <li><Link to="#"><span>МЛАД СПЕЦИАЛИСТ</span></Link></li>
                                 </ul>

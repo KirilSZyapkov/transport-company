@@ -115,3 +115,7 @@
 .header_baner{
     padding: 0px;
 }
+
+.dropdown_uslugi_content_ul>li>a{
+   margin: 0;
+}
