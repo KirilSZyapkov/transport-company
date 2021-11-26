@@ -5,9 +5,10 @@ import HomePage from './Components/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
 import Contacts from './Components/Contacts/Contacts';
 import AboutUs from './Components/AboutUs/AboutUs';
+import Partners from './Components/Partners/Partners';
 
 function App() {
-  
+
   return (
     <div className="App">
       <Header />
@@ -15,7 +16,7 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/contacts" component={Contacts} />
         <Route exact path="/about-us" component={AboutUs} />
-
+        <Route path="/partners" component={Partners} />
       </Switch>
 
       <Footer />

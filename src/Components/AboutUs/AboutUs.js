@@ -64,30 +64,31 @@ function AboutUs() {
 
             <article className='about-us-marks'>
                 <section>
-                <h2>Това, което ни отличава</h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nemo soluta libero. Pariatur numquam placeat unde
-                    magnam. Nemo dicta fugit voluptatibus vitae molestiae aspernatur, vel impedit enim delectus in. Facilis enim dolores
-                    excepturi voluptates iste eos dignissimos ab ipsum, voluptatum dolorem suscipit aperiam commodi harum voluptatibus
-                    fuga consectetur vero non. Deleniti fugit exercitationem quod omnis cumque dolorum aspernatur laborum labore.
-                </p>
+                    <h2>Това, което ни отличава</h2>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nemo soluta libero. Pariatur numquam placeat unde
+                        magnam. Nemo dicta fugit voluptatibus vitae molestiae aspernatur, vel impedit enim delectus in. Facilis enim dolores
+                        excepturi voluptates iste eos dignissimos ab ipsum, voluptatum dolorem suscipit aperiam commodi harum voluptatibus
+                        fuga consectetur vero non. Deleniti fugit exercitationem quod omnis cumque dolorum aspernatur laborum labore.
+                    </p>
                 </section>
+                <br/>
                 <section className='about-us-marks-icons'>
                     <div className='about-us-marks-icons-items' >
-                    <i class="fas fa-handshake"></i>
-                    <p>Високо качество на услугите</p>
+                        <i class="fas fa-handshake"></i>
+                        <p>Високо качество на услугите</p>
                     </div>
                     <div className='about-us-marks-icons-items' >
-                    <i class="fas fa-users"></i>
-                    <p>Персонална грижа за клиентите</p>
+                        <i class="fas fa-users"></i>
+                        <p>Персонална грижа за клиентите</p>
                     </div>
                     <div className='about-us-marks-icons-items' >
-                    <i class="fas fa-chart-line"></i>
-                    <p>По-голяма производителност</p>
+                        <i class="fas fa-chart-line"></i>
+                        <p>По-голяма производителност</p>
                     </div>
                     <div className='about-us-marks-icons-items' >
-                    <i class="fas fa-wallet"></i>
-                    <p>Намаляване на разходите</p>
+                        <i class="fas fa-wallet"></i>
+                        <p>Намаляване на разходите</p>
                     </div>
                 </section>
             </article>

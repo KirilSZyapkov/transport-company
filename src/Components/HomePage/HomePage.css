@@ -1,23 +1,27 @@
-.homepage{
-    padding-top: 10px;
-   
-}
 
 .homepage_transports{
     display: flex;
     justify-content: space-evenly;
     font-size: 25px;
+    background-color: #F0F2F4;
 }
 
 .homepage_transports_links{
     text-align: center;
+    /* border: 1.5px solid red; */
+    font-size: 15px;
+   
+    width: 15%;
 }
+
+
 
 .homepage_topics{
     margin: auto;
     
     max-width: 1150px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 .text{

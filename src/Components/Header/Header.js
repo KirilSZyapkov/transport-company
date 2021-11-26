@@ -68,7 +68,7 @@ function Header() {
                                 </ul>
                             </div>
                         </div>
-                    </Link><Link to="/">
+                    </Link><Link to="/partners">
                         <li className='header_navigation_item'>
                             ПАРТНЬОРИ
                         </li>

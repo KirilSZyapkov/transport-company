@@ -9,6 +9,8 @@ function HomePage() {
                 <p className="homepage_transports_links"><Link to="/"><img src='/static/truck.png' alt='Road Transport' /> <p>СУХОПЪТЕН ТРАНСПОРТ</p></Link></p>
                 <p className="homepage_transports_links"><Link to="/"><img src='/static/plain.png' alt='Air Transport' /> <p>ВЪЗДУШЕН ТРАНСПОРТ</p></Link></p>
                 <p className="homepage_transports_links"><Link to="/"><img src='/static/boat.png' alt='Sea Transport' /> <p>МОРСКИ ТРАНСПОРТ</p></Link></p>
+                <p className="homepage_transports_links"><Link to="/"><img src='/static/train.png' alt='Sea Transport' /> <p>ЖЕЛЕЗОПЪТЕН ТРАНСПОРТ</p></Link></p>
+                <p className="homepage_transports_links"><Link to="/"><img src='/static/warehouse.png' alt='Sea Transport' /> <p>ЛОГИСТИКА</p></Link></p>
             </article>
             <article className='homepage_topics'>
                 <div>
