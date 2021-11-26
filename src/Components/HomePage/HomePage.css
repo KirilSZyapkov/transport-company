@@ -18,13 +18,26 @@
 
 .homepage_topics{
     margin: auto;
-    
+    display: flex;
     max-width: 1150px;
     font-size: 20px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .text{
     font-style: italic;
     color: #666666;
 }
+
+.homepage_topics-text{
+    width: 60%;
+}
+
+.homepage_topics-image{
+    width: 35%;
+    height: 45%;
+}
+
