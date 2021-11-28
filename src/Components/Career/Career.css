@@ -85,11 +85,12 @@
 .career-look-inside{
     display: flex;
     justify-content: space-evenly;
-    height: 250px ;
+    height: 350px ;
     border-top: 3px solid gray;
     border-bottom: 3px solid gray;
     align-items: center;
     font-size: 25px;
+    text-align: center;
 }
 
 @media all and (max-width: 700px) {
@@ -102,4 +103,40 @@
     .career-banner-values-card-S {
         width: 100%;
     }
+}
+
+.career-banner-intro{
+    width: 70%;
+    margin: auto;
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+.career-banner-intro-h1{
+    color: red;
+}
+
+.career-banner-intro-p{
+    color: #666666;
+}
+
+.career-banner-offer-container{
+    padding: 10px 0;
+    width: 70%;
+    margin: auto;
+}
+
+.career-banner-offer{
+    background-color: #0099B7;
+    font-size: 20px;
+}
+
+.career-banner-offer-h1{
+    color: #F7C808;
+}
+
+.career-banner-offer-ul{
+    color: white;
 }
