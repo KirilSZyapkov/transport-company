@@ -42,3 +42,39 @@
     box-shadow: 1px 1px 10px 0px black;
 }
 
+
+.banner{
+    width: 100%;
+    height: 600px;
+    margin-bottom: -5px;
+}
+
+.header_baner{
+    /* border: 1px solid green; */
+    position: relative;
+    
+}
+
+.arrow{
+    position: absolute;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.fa-chevron-left{
+    top: 50%;
+    left: 5%;
+}
+
+.fa-chevron-right{
+    top: 50%;
+    left: 94%;
+}
+
+.header_baner{
+    padding: 0px;
+}
+
+.dropdown_uslugi_content_ul>li>a{
+   margin: 0;
+}

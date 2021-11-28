@@ -1,59 +1,13 @@
-import { useState, useEffect } from 'react';
+
 import { Link } from 'react-router-dom';
 
 import './Header.css';
 
-const banner = [
 
-    '/static/transport-banner.jpg',
-
-    '/static/transport-banner-two.jpg',
-
-    '/static/transport-banner-three.jpg',
-]
 
 function Header() {
 
-    const [state, setState] = useState(0);
-
-    useEffect(() => {
-        const setTimeOut = setTimeout(() => {
-            setState(oldState => {
-                oldState = oldState + 1;
-                if (oldState > banner.length - 1) {
-                    oldState = 0;
-                }
-                return oldState;
-            });
-        }, 8000);
-
-        return () => clearTimeout(setTimeOut);
-    }, [state, setState]);
-
-
-    function decrease(e) {
-        setState(oldState => {
-            oldState = oldState - 1;
-            if (oldState < 0) {
-                oldState = banner.length - 1;
-            }
-            return oldState;
-        });
-    }
-
-    function increase(e) {
-        setState(oldState => {
-            oldState = oldState + 1;
-            if (oldState > banner.length - 1) {
-                oldState = 0;
-            }
-            return oldState;
-        });
-    }
-
-
-
-    return (
+     return (
         <section className='header'>
             <nav className='header_navigation'>
                 <Link to="/"> <img className='header_logo' src="/static/logo.png" alt="logo" />  </Link>
@@ -95,7 +49,7 @@ function Header() {
                             </li>
                             <div className="dropdown_cariera_content">
                                 <ul className="dropdown_uslugi_content_ul" >
-                                    <li><Link to="#"><span>КАРИЕРА В ТРАНСПОРТА</span></Link></li>
+                                    <li><Link to="/career"><span>КАРИЕРА В ТРАНСПОРТА</span></Link></li>
                                     <li><Link to="#"><span>МЛАД СПЕЦИАЛИСТ</span></Link></li>
                                 </ul>
                             </div>
@@ -111,11 +65,7 @@ function Header() {
                     </Link>
                 </ul>
             </nav>
-            <article className='header_baner'>
-                <i className="fas fa-chevron-left arrow" onClick={decrease}></i>
-                <i className="fas fa-chevron-right arrow" onClick={increase}></i>
-                <img className='banner' src={banner[state]} alt="banner" />
-            </article>
+            
         </section>
     );
 }

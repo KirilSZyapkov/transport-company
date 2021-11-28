@@ -1,10 +1,65 @@
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+
 
 import './HomePage.css';
 
+const banner = [
+
+    '/static/transport-banner.jpg',
+
+    '/static/transport-banner-two.jpg',
+
+    '/static/transport-banner-three.jpg',
+]
+
 function HomePage() {
+
+    const [state, setState] = useState(0);
+
+    useEffect(() => {
+        const setTimeOut = setTimeout(() => {
+            setState(oldState => {
+                oldState = oldState + 1;
+                if (oldState > banner.length - 1) {
+                    oldState = 0;
+                }
+                return oldState;
+            });
+        }, 8000);
+
+        return () => clearTimeout(setTimeOut);
+    }, [state, setState]);
+
+
+    function decrease(e) {
+        setState(oldState => {
+            oldState = oldState - 1;
+            if (oldState < 0) {
+                oldState = banner.length - 1;
+            }
+            return oldState;
+        });
+    }
+
+    function increase(e) {
+        setState(oldState => {
+            oldState = oldState + 1;
+            if (oldState > banner.length - 1) {
+                oldState = 0;
+            }
+            return oldState;
+        });
+    }
+
     return (
         <section className='homepage'>
+            <article className='header_baner'>
+                <i className="fas fa-chevron-left arrow" onClick={decrease}></i>
+                <i className="fas fa-chevron-right arrow" onClick={increase}></i>
+                <img className='banner' src={banner[state]} alt="banner" />
+            </article>
+            
             <article className='homepage_transports'>
                 <p className="homepage_transports_links"><Link to="/"><img src='/static/truck.png' alt='Road Transport' /> <p>СУХОПЪТЕН ТРАНСПОРТ</p></Link></p>
                 <p className="homepage_transports_links"><Link to="/"><img src='/static/plain.png' alt='Air Transport' /> <p>ВЪЗДУШЕН ТРАНСПОРТ</p></Link></p>
@@ -31,6 +86,7 @@ function HomePage() {
                 </div>
                 <img className='homepage_topics-image' src='/static/future-topic-three.jpg' alt='img' />
             </article>
+
         </section>
 
     );
