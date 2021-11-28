@@ -25,6 +25,45 @@ function Career() {
                     <li>Която Ви помага да дадете своя принос към обществото.</li>
                 </ul>
             </article>
+            <article className='career-banner-values'>
+                <div className='career-banner-values-card-V'>
+                    <img src='/static/values-V.png' alt='logo' />
+                    <p>Ценим честната, открита и директна комуникация.</p>
+                </div>
+                <div className='career-banner-values-card-A'>
+                    <img src='/static/values-A.png' alt='logo' />
+                    <p>Насърчаваме нашите служители да бъдат инициативни.</p>
+                </div>
+                <div className='career-banner-values-card-L'>
+                    <img src='/static/values-L.png' alt='logo' />
+                    <p>Ценим доверието, лоялността и уважението между нас и към нашите партньори.</p>
+                </div>
+                <div className='career-banner-values-card-U'>
+                    <img src='/static/values-U.png' alt='logo' />
+                    <p>Харесваме това, което работим.</p>
+                </div>
+                <div className='career-banner-values-card-E'>
+                    <img src='/static/values-E.png' alt='logo' />
+                    <p>Грижим се за професионалното развитие на нашите служители.</p>
+                </div>
+                <div className='career-banner-values-card-S'>
+                    <img src='/static/values-S.png' alt='logo' />
+                    <p>Социално отговорни сме към обществото и околната среда.</p>
+                </div>
+            </article>
+            <article className='career-look-inside'>
+                <div>
+                    <h1>Поглед отвътре</h1>
+                </div>
+                <div>
+                    <i class="fas fa-user"></i>
+                    <p>82500 employees</p>
+                </div>
+                <div>
+                <i class="fas fa-map-marker-alt"></i>
+                    <p>150 countries connected</p>
+                </div>
+            </article>
         </section>
     );
 }

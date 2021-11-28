@@ -1,5 +1,105 @@
+@media screen and (max-width: 700px) {
+    .career-banner-values {
+        
+        flex-direction: column;
+    }
+
+    .career-look-inside {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
 
 .career-banner-img{
     width: 100%;
     height: auto;
+}
+
+.career-banner-values{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.career-banner-values-card-V, 
+.career-banner-values-card-A, 
+.career-banner-values-card-L, 
+.career-banner-values-card-U, 
+.career-banner-values-card-E, 
+.career-banner-values-card-S{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.career-banner-values-card-V{
+    background-color: #22B5BF;
+    color: white;
+    width: 33.333%;
+    height: 300px;
+    text-align: center;
+}
+
+.career-banner-values-card-A{
+    background-color: #F7C808;
+    color: white;
+    width: 33.333%;
+    height: 300px;
+    text-align: center;
+}
+
+.career-banner-values-card-L{
+    background-color: #F68124;
+    color: white;
+    width: 33.333%;
+    height: 300px;
+    text-align: center;
+}
+
+.career-banner-values-card-U{
+    background-color: #D2315D;
+    color: white;
+    width: 33.333%;
+    height: 300px;
+    text-align: center;
+}
+
+.career-banner-values-card-E{
+    background-color: #8767A6;
+    color: white;
+    width: 33.333%;
+    height: 300px;
+    text-align: center;
+}
+
+.career-banner-values-card-S{
+    background-color: #7DB12F;
+    color: white;
+    width: 33.333%;
+    height: 300px;
+    text-align: center;
+}
+
+.career-look-inside{
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px ;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    align-items: center;
+    font-size: 25px;
+}
+
+@media all and (max-width: 700px) {
+    
+    .career-banner-values-card-V, 
+    .career-banner-values-card-A, 
+    .career-banner-values-card-L, 
+    .career-banner-values-card-U, 
+    .career-banner-values-card-E, 
+    .career-banner-values-card-S {
+        width: 100%;
+    }
 }
