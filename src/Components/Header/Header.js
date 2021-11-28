@@ -50,7 +50,7 @@ function Header() {
                             <div className="dropdown_cariera_content">
                                 <ul className="dropdown_uslugi_content_ul" >
                                     <li><Link to="/career"><span>КАРИЕРА В ТРАНСПОРТА</span></Link></li>
-                                    <li><Link to="#"><span>МЛАД СПЕЦИАЛИСТ</span></Link></li>
+                                    <li><Link to="/career/specialist"><span>МЛАД СПЕЦИАЛИСТ</span></Link></li>
                                 </ul>
                             </div>
                         </div>

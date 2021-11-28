@@ -7,6 +7,7 @@ import Contacts from './Components/Contacts/Contacts';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Partners from './Components/Partners/Partners';
 import Career from './Components/Career/Career';
+import Specialist from './Components/YongSpcialist/Specialist';
 
 function App() {
 
@@ -18,7 +19,8 @@ function App() {
         <Route exact path="/contacts" component={Contacts} />
         <Route exact path="/about-us" component={AboutUs} />
         <Route path="/partners" component={Partners} />
-        <Route path="/career" component={Career} />
+        <Route  exact path="/career" component={Career} />
+        <Route  exact path="/career/specialist" component={Specialist} />
       </Switch>
 
       <Footer />
