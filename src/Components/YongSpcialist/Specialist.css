@@ -1,0 +1,54 @@
+.spetsialist-img{
+    text-align: center;
+    background-color: #DEDEDE;
+    
+}
+
+.spetsialist-img-image{
+    margin-bottom: -3px;
+    
+    
+}
+
+.spetsialist-question-ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.spetsialist-question-li{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+.fa-question{
+    font-size: 100px;
+    margin-right: 30px;
+    color: red;
+}
+
+.specialist-belive{
+    background-color: #0099B7;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 65px;
+    line-height: 1.2;
+    
+}
+
+.specialist-belive-p{
+color: white;
+}
+
+.specialist-belive-h1, 
+.specialist-belive-h3{
+color:  rgba(255, 208, 0, 0.89);
+}
