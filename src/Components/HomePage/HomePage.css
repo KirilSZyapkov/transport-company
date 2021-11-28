@@ -39,5 +39,6 @@
 .homepage_topics-image{
     width: 35%;
     height: 45%;
+    box-shadow: 1px 1px 10px 0px black;
 }
 

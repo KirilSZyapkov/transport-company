@@ -1,21 +1,35 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import './Header.css';
 
+const banner = [
+
+    '/static/transport-banner.jpg',
+
+    '/static/transport-banner-two.jpg',
+
+    '/static/transport-banner-three.jpg',
+]
 
 function Header() {
 
     const [state, setState] = useState(0);
 
-    const banner = [
+    useEffect(() => {
+        const setTimeOut = setTimeout(() => {
+            setState(oldState => {
+                oldState = oldState + 1;
+                if (oldState > banner.length - 1) {
+                    oldState = 0;
+                }
+                return oldState;
+            });
+        }, 8000);
 
-        '/static/transport-banner.jpg',
+        return () => clearTimeout(setTimeOut);
+    }, [state, setState]);
 
-        '/static/transport-banner-two.jpg',
-
-        '/static/transport-banner-three.jpg',
-    ]
 
     function decrease(e) {
         setState(oldState => {
@@ -36,6 +50,8 @@ function Header() {
             return oldState;
         });
     }
+
+
 
     return (
         <section className='header'>
