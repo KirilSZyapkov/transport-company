@@ -37,15 +37,19 @@ function Contacts() {
         e.preventDefault();
         try {
             const result = await emailjs.sendForm('service_qv0stx3', 'template_lpz2ikm', e.target, 'user_cHmfISm7sED5Rr2y3J6Uv');
-            
+
             alert("Message Sent, We will get back to you shortly", result.text);
+            e.target.name.value = '';
+            e.target.email.value = '';
+            e.target.subject.value = '';
+
         } catch (err) {
             console.log(err);
             alert(`An error occurred, Please try again ${err.text}`);
         }
     }
-    
-    
+
+
     return (
         <section className="container">
             <h1>Искате ли да се свържете с нас?</h1>
