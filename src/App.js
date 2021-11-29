@@ -8,6 +8,7 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import Partners from './Components/Partners/Partners';
 import Career from './Components/Career/Career';
 import Specialist from './Components/YongSpcialist/Specialist';
+import RoadTransport from './Components/RoadTransport/RoadTransport';
 
 function App() {
 
@@ -16,11 +17,12 @@ function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/contacts" component={Contacts} />
-        <Route exact path="/about-us" component={AboutUs} />
+        <Route path="/contacts" component={Contacts} />
+        <Route path="/about-us" component={AboutUs} />
         <Route path="/partners" component={Partners} />
-        <Route  exact path="/career" component={Career} />
-        <Route  exact path="/career/specialist" component={Specialist} />
+        <Route exact path="/career" component={Career} />
+        <Route path="/career/specialist" component={Specialist} />
+        <Route path="/road-transport" component={RoadTransport} />
       </Switch>
 
       <Footer />

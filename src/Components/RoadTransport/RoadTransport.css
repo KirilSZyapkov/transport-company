@@ -1,0 +1,61 @@
+.road-transport-banner{
+    /* border: 1px solid red; */
+    height: 300px;
+    overflow: hidden;
+}
+
+.road-transport-img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.road-transport-card{
+    /* border: 1px solid green; */
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    line-height: 1.5;
+    margin: 0 25px;
+}
+
+.fa-clock, 
+.fa-shield-alt,
+.fa-percent,
+.fa-thumbs-up{
+    font-size: 95px;
+}
+
+.road-transport-card-h2, .road-transport-h1{
+    color: #0099B7;
+    font-size: 25px;
+}
+
+.road-transport-card-p{
+    color: #666666;
+    font-size: 18px;
+}
+
+.road-transport-i, 
+.road-transport-h1-h1{
+    text-align: center;
+}
+
+.road-transport-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.road-transport-h1-h1{
+    padding: 25px 0;
+}
+
+@media screen and (max-width: 959px) {
+    .road-transport-list{
+       flex-direction: column;
+    }
+
+    .road-transport-card{
+        width: 100%;
+    }
+}
