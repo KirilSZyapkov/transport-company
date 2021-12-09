@@ -1,3 +1,81 @@
-.sea-tranport-banner-img{
+.sea-tranport-banner-img,
+.sea-transport-main-roads-map{
     width: 100%;
+}
+
+.sea-transport-main-roads-div{
+    text-align: center;
+}
+
+.sea-transport-main-roads-h1{
+    font-size: 40px;
+    color: #D8262C;
+}
+
+.sea-transport-import-xport{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #666666;
+}
+
+.sea-transport-import, .sea-transport-export{
+    width: 30%;
+}
+
+.sea-transport-import-h1, 
+.sea-transport-export-h1,
+.sea-transport-content-h1{
+    font-size: 30px;
+    color: #0099B7;
+}
+
+.sea-transport-our-advantiges{
+    background-color: #F0F2F4;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.class-li{
+    display: flex;
+
+    align-items: center;
+}   
+
+.class-i{
+    margin-right: 15px;
+    color: red;
+    border-radius: 50%;
+    
+}
+
+.sea-transport-our-advantiges-ul{
+    padding: 0;
+}
+
+.sea-transport-our-advantiges-adnvance-h1, 
+.sea-transport-our-advantiges-goals-h1{
+    font-size: 20px;
+    color: #0099B7;
+}
+
+.sea-transport-content-text{
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+
+.sea-transport-content-p{
+    color: #666666;
+    
+}
+
+@media screen and (max-width: 765px) {
+    .sea-transport-our-advantiges{
+        flex-wrap: wrap;
+    }
 }

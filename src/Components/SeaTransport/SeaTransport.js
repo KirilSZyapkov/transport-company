@@ -35,9 +35,62 @@ function SeaTransport() {
             </section>
 
             <section className='sea-transport-our-advantiges'>
-<article className='sea-transport-our-advantiges-adnvance'>
+                <article className='sea-transport-our-advantiges-adnvance'>
+                    <h1 className='sea-transport-our-advantiges-adnvance-h1'>
+                        Нашите Предимства
+                    </h1>
+                    <ul className='sea-transport-our-advantiges-ul'>
+                        <li className="class-li"><i className="fas fa-check-circle class-i"></i><p>Надежден партньор</p></li>
+                        <li className="class-li"><i className="fas fa-dollar-sign class-i"></i><p>Конкурентни тарифи</p></li>
+                        <li className="class-li"><i className="fas fa-calculator class-i"></i><p>Прозрачност на офертите</p></li>
+                    </ul>
+                </article>
 
-</article>
+                <article className='sea-transport-our-advantiges-goals'>
+                    <h1 className='sea-transport-our-advantiges-goals-h1'>
+                        Услуги за Цели(FCL) / Частични(LCL) (групажни) Контейнери
+                    </h1>
+                    <ul className='sea-transport-our-advantiges-ul'>
+                        <li className="class-li"><i class="far fa-check-square class-i"></i><p>Товарене / Доставка от и до вратата ви</p></li>
+                        <li className="class-li"><i class="far fa-check-square class-i"></i><p>Митническо представителство за внос/износ</p></li>
+                        <li className="class-li"><i class="far fa-check-square class-i"></i><p>Претоварване</p></li>
+                        <li className="class-li"><i class="far fa-check-square class-i"></i><p>Пристанищни услуги и манипулации</p></li>
+                        <li className="class-li"><i class="far fa-check-square class-i"></i><p>Деконтейнеризация на пристанище</p></li>
+                    </ul>
+                </article>
+            </section>
+
+            <section className='sea-transport-import-xport'>
+                <article className='sea-transport-import'>
+                    <h1 className='sea-transport-import-h1'><i class="fas fa-cloud-upload-alt"></i> Внос</h1>
+                    <div>
+                        <p>
+                            Ние сме член на обширни партньорски мрежи за спедитори и агенти, което ни позволява да предоставим отлична надеждна услуга за внос и съпорт от всяка точка на света ефикасно от към цена и рефлектиращо местните пазарни стойности независимо от дестинацията.
+                        </p>
+                        <p>
+                            Ние знаем, че следенето и управлението на вашата пратка има нужда от отношение с внимание към детайла, поради което стриктно подбираме нашите партньори във всяка държава, за да подсигурим безпроблемната и навременна доставка до прага на вашата врата или склад.
+                        </p>
+                    </div>
+                </article>
+
+                <article className='sea-transport-export'>
+                    <h1 className='sea-transport-export-h1'><i class="fas fa-cloud-download-alt"></i> Износ</h1>
+                    <div>
+                        <p>
+                            Благодарение на нашите опитни екипи успяхме да изградим и поддържаме добри взаимноотношения директно с корабните линии в Гърция и България, което ни дава възможност да предложим най-добрите възможни решения за износ, по икономичен начин.
+                        </p>
+                        <p>
+                            Работим паралелно с всички корабни линии, за да предоставим пълен набор от дестинации и варианти за вашият бизнес включително (но не само) популярни курсове като Северна Европа, Близкия Изток, САЩ, Южна Америка, както и не толкова известни маршрути в Западна Африка, Нова Зеландия и Азия.
+                        </p>
+                    </div>
+                </article>
+            </section>
+
+            <section className='sea-transport-main-roads'>
+                <div className='sea-transport-main-roads-div'>
+                    <h1 className='sea-transport-main-roads-h1'>Основни маршрути на внос и износ</h1>
+                </div>
+                <img className='sea-transport-main-roads-map' src='/static/dotted_worldmap_bk.gif' alt='world-map' />
             </section>
         </section>
     );

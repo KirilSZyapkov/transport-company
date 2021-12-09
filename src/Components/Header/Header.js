@@ -21,7 +21,7 @@ function Header() {
                                 <ul className="dropdown_uslugi_content_ul" >
                                     <li><Link to="/road-transport"><span>СУХОПЪТЕН ТРАНСПОРТ</span></Link></li>
                                     <li><Link to="/sea-transport"><span>МОРСКИ ТРАНСПОРТ</span></Link></li>
-                                    <li><Link to="/"><span>ВЪЗДУШЕН ТРАНСПОРТ</span></Link></li>
+                                    <li><Link to="/air-transport"><span>ВЪЗДУШЕН ТРАНСПОРТ</span></Link></li>
                                 </ul>
                             </div>
                         </div>
