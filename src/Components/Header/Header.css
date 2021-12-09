@@ -18,9 +18,9 @@
 
 .header_navigation{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    /* padding: 10px 0px; */
+    padding: 0px 55px;
     font-size: 12px;
 }
 
@@ -61,7 +61,7 @@
     border-radius: 10px;
 }
 
-.header_navigation_list a:nth-child(6) {
+.header_navigation_list a:nth-child(5) {
     background-color: #0099B7;
     color: white;
 }

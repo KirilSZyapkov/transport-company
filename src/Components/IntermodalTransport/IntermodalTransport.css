@@ -1,0 +1,49 @@
+.intermodal-tranport-green{
+    display: flex;
+    padding: 15px;
+}
+
+.intermodal-tranport-green-text-container{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.intermodal-tranport-green-text-container-h1{
+    font-size: 39px;
+    color: #90A824;
+}
+
+.intermodal-tranport-green-text-container-p{
+    font-size: 25px;
+    color: #6679AB;
+}
+
+.intermodal-tranport-green-img{
+    border-radius: 20px;
+}
+
+.intermodal-tranport-benefits{
+    background-color: #1F9BC1;
+    padding: 20px;
+    color: #F1E6DD;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 5px;
+
+}
+
+.intermodal-tranport-benefits-head{
+    text-align: center;
+    font-size: 23px;
+}
+
+.intermodal-tranport-benefits-body{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+}
+
+.intermodal-tranport-benefits-body-content{
+    width: 20%;
+    font-size: 15px;
+}

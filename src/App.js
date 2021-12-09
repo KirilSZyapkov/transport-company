@@ -11,6 +11,7 @@ import Specialist from './Components/YongSpcialist/Specialist';
 import RoadTransport from './Components/RoadTransport/RoadTransport';
 import SeaTransport from './Components/SeaTransport/SeaTransport';
 import AirTransport from './Components/AirTransport/AirTransport';
+import IntermodalTransport from './Components/IntermodalTransport/IntermodalTransport';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/road-transport" component={RoadTransport} />
         <Route path="/sea-transport" component={SeaTransport} />
         <Route path="/air-transport" component={AirTransport} />
+        <Route path="/intermodal" component={IntermodalTransport} />
         
       </Switch>
 
