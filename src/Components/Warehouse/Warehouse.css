@@ -1,0 +1,35 @@
+.warehouse-banner-img{
+    width: 100%;
+}
+
+.warehouse-content{
+    width: 60%;
+    margin: auto;
+    padding: 25px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.warehouse-content-h2,
+.warehouse-content-h1,
+.warehouse-content-ul-h3{
+    color: #0099B7;
+}
+
+.warehouse-content-p,
+.warehouse-content-ul-h3{
+    font-size: 16px;
+}
+
+.warehouse-content-h1{
+    font-size: 25px;
+}
+
+.warehouse-content-ul-p{
+    font-size: 15px;
+}
+
+.warehouse-content-p,
+.warehouse-content-ul-p{
+    color: #666666;
+}

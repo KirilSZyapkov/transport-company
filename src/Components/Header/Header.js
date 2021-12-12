@@ -23,7 +23,7 @@ function Header() {
                                     <li><Link to="/sea-transport"><span>МОРСКИ ТРАНСПОРТ</span></Link></li>
                                     <li><Link to="/air-transport"><span>ВЪЗДУШЕН ТРАНСПОРТ</span></Link></li>
                                     <li><Link to="/intermodal"><span>ЖЕЛЕЗОПЪТЕН ТРАНСПОРТ</span></Link></li>
-                                    <li><Link to="/air-transport"><span>ЛОГИСТИКА</span></Link></li>
+                                    <li><Link to="/logistics"><span>ЛОГИСТИКА</span></Link></li>
                                 </ul>
                             </div>
                         </div>

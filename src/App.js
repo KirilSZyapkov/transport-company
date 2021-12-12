@@ -12,6 +12,7 @@ import RoadTransport from './Components/RoadTransport/RoadTransport';
 import SeaTransport from './Components/SeaTransport/SeaTransport';
 import AirTransport from './Components/AirTransport/AirTransport';
 import IntermodalTransport from './Components/IntermodalTransport/IntermodalTransport';
+import Warehouse from './Components/Warehouse/Warehouse';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/sea-transport" component={SeaTransport} />
         <Route path="/air-transport" component={AirTransport} />
         <Route path="/intermodal" component={IntermodalTransport} />
+        <Route path="/logistics" component={Warehouse} />
         
       </Switch>
 
