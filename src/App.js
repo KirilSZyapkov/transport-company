@@ -13,6 +13,7 @@ import SeaTransport from './Components/SeaTransport/SeaTransport';
 import AirTransport from './Components/AirTransport/AirTransport';
 import IntermodalTransport from './Components/IntermodalTransport/IntermodalTransport';
 import Warehouse from './Components/Warehouse/Warehouse';
+import NotFound from './Components/404/NotFound';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/air-transport" component={AirTransport} />
         <Route path="/intermodal" component={IntermodalTransport} />
         <Route path="/logistics" component={Warehouse} />
+        <Route path="*" component={NotFound} />
         
       </Switch>
 
