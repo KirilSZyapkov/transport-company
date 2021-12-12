@@ -47,3 +47,66 @@
     width: 20%;
     font-size: 15px;
 }
+
+.intermodal-tranport-units{
+    width: 60%;
+    margin: auto;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intermodal-tranport-units-div,
+.intermodal-tranport-freet-div{
+    text-align: center;
+}
+
+.intermodal-tranport-units-div-h1{
+    color: rgb(230, 106, 4);   
+    font-size: 35px;
+    
+}
+
+.intermodal-tranport-units-h3{
+    color: #1F9BC1;
+    font-size: 25px;
+}
+
+.intermodal-tranport-units-p{
+    color: #6679AB;
+    font-size: 20px;
+}
+
+.intermodal-tranport-banner-img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.intermodal-tranport-freet{
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(197, 68, 8);
+    text-align: center;
+    padding: 20px;
+}
+
+.intermodal-tranport-freet-div-h1{
+    margin-top: 0;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.intermodal-tranport-freet-article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intermodal-tranport-freet-article-section-ul{
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.intermodal-tranport-freet-article-section-h4,
+.intermodal-tranport-freet-h3{
+    font-size: 25px;
+}

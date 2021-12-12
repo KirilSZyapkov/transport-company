@@ -51,6 +51,51 @@ function IntermodalTransport() {
                 </div>
 
             </article>
+            <section className='intermodal-tranport-units'>
+                <div className='intermodal-tranport-units-div'>
+
+                    <h1 className='intermodal-tranport-units-div-h1'>Нашите Блог Влакове</h1>
+                </div>
+                <h3 className='intermodal-tranport-units-h3'>Нов интермодален влак от Румъния - Полша</h3>
+                <p className='intermodal-tranport-units-p'>На 11 юли 2018, Гопет стартира втория си проект в интермодалния транспорт, а именно интермодален блок влак между Румъния и Полша. Влакът се движи от Оредея, Румъния до Лодз, Полша и обратно веднъж седмично.</p>
+                <p className='intermodal-tranport-units-p'>Изправени пред ограниченията на планинския терен, който трябва да се прекоси нашият екип прие предизвикателството да планира трасето през четири граници (Румъния, Унгария, Словакия, Чехия и Полша), като покрива трасе от близо 1.000 км релсов път , за 36 ч. (от терминал до терминал). Три от границите са в Шенген и затова митнически формалности има само между Румъния и Унгария.</p>
+                <p className='intermodal-tranport-units-p'>Нашият интермодален влак на практика е първата интермодална връзка между два от най-силните и големи пазари в Европейския съюз, а именно Полша и Румъния (потребление, производство и обмен).</p>
+                <p className='intermodal-tranport-units-p'>Новият интермодален сервиз позволява да се направи връзка със Скандинавия чрез разработен интермодален сервиз през Лодз-Гданск- Гдиня. За Балканите това е възможност да свърже влака с вече утвърденият интермодален сервиз между Румъния и България (през Русе за Стара Загора с възможност за доставки до София от врата до врата).</p>
+            </section>
+            <section className='intermodal-tranport-banner'>
+                <img className='intermodal-tranport-banner-img' src='/static/intermodal_train.jpg' alt='banner' />
+            </section>
+            <section className='intermodal-tranport-freet'>
+                <div className='intermodal-tranport-freet-container'>
+                    <div className='intermodal-tranport-freet-div'>
+                        <h1 className='intermodal-tranport-freet-div-h1'>Флот – над 200 единици</h1>
+                    </div>
+                    <h3 className='intermodal-tranport-freet-h3'>Интермодалният ни парк се състои основно от 45 футови – палетни контейнери и жп брезентови полуремаркета.</h3>
+                    <article className='intermodal-tranport-freet-article'>
+                        <section className='intermodal-tranport-freet-article-section'>
+                            <h4 className='intermodal-tranport-freet-article-section-h4'>Ремаркета модел P 400</h4>
+                            <ul className='intermodal-tranport-freet-article-section-ul'>
+                                <li>Вътрешна височина: 2790 мм</li>
+                                <li>Вътрешна ширина: 2480 мм</li>
+                                <li>Вътрешна дължина: 13620 мм</li>
+                                <li>Височина при отворена врата: 2700 мм</li>
+                                <li>Височина при странично отваряне: 2700 мм</li>
+                            </ul>
+                        </section>
+                        <section className='intermodal-tranport-freet-article-section'>
+                            <h4 className='intermodal-tranport-freet-article-section-h4'>45 футов контейнер </h4>
+                            <ul className='intermodal-tranport-freet-article-section-ul'>
+                                <li>Вътрешна височина: 2670 мм</li>
+                                <li>Вътрешна ширина: 2410 мм</li>
+                                <li>Вътрешна дължина: 13530 мм</li>
+                                <li>Височина при отворена врата: 2570 мм</li>
+                                <li>Широчина при отворена врата: 2410 мм</li>
+                            </ul>
+                        </section>
+
+                    </article>
+                </div>
+            </section>
         </section>
     );
 }
